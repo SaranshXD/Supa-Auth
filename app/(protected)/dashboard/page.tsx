@@ -14,10 +14,10 @@ export default async function DashboardPage() {
   return (
     <div className="min-h-screen bg-slate-50/50">
       <nav className="border-b bg-white px-6 py-4">
-        <div className="mx-auto flex max-w-5xl items-center justify-between">
-          <span className="text-lg font-bold tracking-tight text-slate-900 underline decoration-indigo-500 decoration-2">AppLogo</span>
+        <div className="mx-auto flex max-w-7xl items-center justify-between">
+          <span className="text-lg font-bold tracking-tight text-slate-900 underline decoration-indigo-500 decoration-2">SupaAuth</span>
           <form action={logoutAction}>
-            <button className="text-sm font-medium text-slate-500 transition-colors hover:text-rose-600">
+            <button className="text-sm font-medium border-red-500/30 text-slate-500 transition-colors hover:text-rose-600 hover:bg-rose-400/20">
               Sign out
             </button>
           </form>
