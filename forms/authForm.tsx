@@ -29,7 +29,7 @@ function PasswordStrength({ value }: { value: string }) {
     const score = [/[A-Z]/, /[a-z]/, /[0-9]/, /[@$!%*?&#]/].reduce((s, r) => (r.test(value) ? s + 1 : s), 0)
     const percent = Math.min(100, (score / 4) * 100)
     const color = score <= 1 ? "bg-rose-500" : score === 2 ? "bg-amber-500" : "bg-emerald-500"
-    
+
     return (
         <div className="mt-2 animate-in fade-in slide-in-from-top-1 duration-300">
             <div className="h-1.5 w-full rounded-full bg-slate-100 overflow-hidden">

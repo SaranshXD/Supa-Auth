@@ -35,7 +35,7 @@ export default async function DashboardPage() {
               <p className="text-sm text-slate-500">{data.user?.email}</p>
             </div>
           </div>
-          
+
           <div className="h-32 rounded-xl border-2 border-dashed border-slate-100 grid place-items-center text-slate-400 text-sm italic">
             Your project content goes here...
           </div>
