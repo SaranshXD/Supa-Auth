@@ -17,7 +17,7 @@ export default async function DashboardPage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between">
           <span className="text-lg font-bold tracking-tight text-slate-900 underline decoration-indigo-500 decoration-2">SupaAuth</span>
           <form action={logoutAction}>
-            <button className="text-sm font-medium border-red-500/30 text-slate-500 transition-colors hover:text-rose-600 hover:bg-rose-400/20">
+            <button className="text-sm px-1 py-1 rounded font-medium border border-red-500/30 text-slate-500 transition-colors hover:text-rose-600 hover:bg-rose-400/20">
               Sign out
             </button>
           </form>
